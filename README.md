@@ -22,4 +22,20 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
 # carrot-bookers1
+Template is missing programs.<br>
+
+*root-path<br>
+:add routes.rb  root to: 'homes#top'<br>
+
+*undefined controller-name<br>
+:change cotrollers/homes  class HomesController<br>
+
+*compile webpacker<br>
+>>compile not yet<br>
+:command to terminal(3ways)  <br> 1. rails assets:precompile
+2. bin/webpack  3. bin/webpack-dev-server <br>
+
+
