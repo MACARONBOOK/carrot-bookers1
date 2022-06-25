@@ -42,7 +42,8 @@ Template is missing programs.<br>
 
 * 5*add column on table<br>
 :command to terminal<br>
-rails g migration add_title_to_books title:text
+ rails g migration add_title_to_books title:text<br>
+ rails db:migrate
 
 * 6*define @books on BooksController-show<br>
 :else  @books=Book.all  end
