@@ -34,7 +34,7 @@ Template is missing programs.<br>
 :change cotrollers/homes  class HomesController<br>
 
 *compile webpacker<br>
->>compile not yet<br>
+=>compile not yet<br>
 :command to terminal(3ways)  <br> 1. rails assets:precompile
 2. bin/webpack  3. bin/webpack-dev-server <br>
 
