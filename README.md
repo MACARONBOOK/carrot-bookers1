@@ -36,10 +36,11 @@ Template is missing programs.<br>
 3*add path to start
 :<%=link_to start,book_path %>
 
-*compile webpacker<br>????????????
-=>compile not yet<br>
-:command to terminal(3ways)  <br> 
-1. rails assets:precompile←try it!  2. bin/webpack  3. bin/webpack-dev-server <br>
+*compile webpacker(compile not yet) ← where this error？<br>
+:command to terminal(3ways)<br>
+①rails assets:precompile←try it!<br>
+②bin/webpack<br>
+③bin/webpack-dev-server <br>
 
 4*add value on render<br>
 :<%= render 'form', book: @book %><br>
@@ -55,7 +56,7 @@ rails g migration add_title_to_books title:text<br>
 :<%=link_to "Edit",edit_book_path(book) %><br>
 
 8*delete double-tag<br>
-:<form></form><br>
+: form /form <br>
 
 9*add argument<br>
 :@book.update(book_params)<br>
