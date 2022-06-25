@@ -48,14 +48,15 @@ Template is missing programs.<br>
 :command to terminal<br>
 rails g migration add_title_to_books title:text<br>
 
-6*
-:
+6*define @books on BooksController-show<br>
+:else  @books=Book.all  end<br>
 
-7*
-:
+7*change edit-link(UrlGenerationError) <br>
+:<%=link_to "Edit",edit_book_path(book) %><br>
 
-8*
-:
+8*delete double-tag<br>
+:<form></form><br>
 
-9*
-:
+9*add argument<br>
+:@book.update(book_params)<br>
+
